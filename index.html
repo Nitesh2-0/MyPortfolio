@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Nitesh Kumar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="./Ingradient/portfolio.png" type="image/x-icon"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body >
+  <div class="menu-content">
+    <div class="link-container">
+      <a onclick="showPage('home')">Home</a>
+      <a onclick="showPage('about')">About</a>
+      <a onclick="showPage('skill')">Skill</a>
+      <a onclick="showPage('project')">Project</a>
+      <a href="https://www.linkedin.com/in/niteshkumaryadav16/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Nitesh2-0" target="_blank">Github</a>
+    </div>
+    <div class="mode-selector">
+      <select name="" id="selection">
+        <option value="Light">Light</option>
+        <option value="Dark">Dark</option>
+      </select>
+   </div>
+  </div>
+  <div id="main">
+  <header>
+      <img src="./Ingradient/portfolio.png" alt="portfolio" />
+      <nav>
+        <a onclick="showPage('home')">Home</a>
+        <a onclick="showPage('about')">About</a>
+        <a onclick="showPage('skill')">Skill</a>
+        <a onclick="showPage('project')">Project</a>
+        <i class="ri-sun-line" id="toggleBtn"></i>
+      </nav>
+      <i class="ri-menu-line" id="menu"></i>
+  </header>
+  <section id="home" class="active">
+    <div class="page1 ">
+      <div  class="left">
+        <h1>Hi There,</h1>
+        <h1 id="special">I'm <span>Nitesh Kumar</span></h1>
+        <h2>And I am <span class="auto-type autoType"></span></h2>
+        <div class="btn-container">
+          <button class="rightBtn" id="resume">Download Resume</button>
+          <button class="rightBtn leftBtn" id="hireRequest1">Hire Me Now!</button>
+        </div>
+        <div class="social-media">
+          <a style="color: rgb(11, 9, 9);" class="media-hover-Effect" href="https://www.linkedin.com/in/niteshkumaryadav16/" target="_blankhttps://github.com/niteshkumaryadav16"><i class="ri-linkedin-box-fill"></i></a>
+          <a style="color: rgb(17, 17, 17);" class="media-hover-Effect" href="https://github.com/niteshkumaryadav16" target="_blank"> <i class="ri-github-fill"></i></a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./Ingradient/GIF7.gif" alt="gif7"></div>
+            <div class="swiper-slide"><img src="./Ingradient/GIF4.gif" alt="gif4"></div>
+            <div class="swiper-slide"><img src="./Ingradient/GIF3.gif" alt="gif3"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div id="About" class="page2">
+      <h1><i class="ri-user-2-fill"></i> About Me</h1>
+      <div class="about-me">
+        <div class="left">
+          <img src="./Ingradient/Nitesh.png" alt="">
+          <div class="social-media">
+            <a class="media-hover-Effect" href="https://www.linkedin.com/in/niteshkumaryadav16/" target="_blankhttps://github.com/niteshkumaryadav16"><i class="ri-linkedin-box-fill"></i></a>
+            <a class="media-hover-Effect" href="https://github.com/niteshkumaryadav16" target="_blank"> <i class="ri-github-fill"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="sub-title">
+            <h1>I'm Nitesh Kumar 👨‍💻</h1>
+            <span style="font-weight: 600; font-size: 25px;">Front-End Developer</span>
+          </div>
+          <h3>Front-end Developer skilled in <span style="color: blueviolet;">HTML, CSS, and JavaScript</span>. Self-motivated with strong problem-solving abilities.
+             Enthusiastic about creating user-friendly interfaces. Keen interest in building innovative and responsive
+              web applications. Seeking a challenging role in a growth-oriented organization.
+          </h3>
+          <button class="rightBtn" id="resume">Resume <i class="ri-arrow-right-s-line"></i></button>
+          <button class="rightBtn leftBtn" id="btnRequest" >Hire Me Now!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" >
+    <div id="Skill" class="page3">
+      <h1><i style="color:darkturquoise;" class="ri-macbook-fill"></i> Tech Stack </h1>
+      <div class="Skill-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/java.png" alt="java">
+            <h3>Java</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/C++.png" alt="C++">
+            <h3>C++</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/js.webp" alt="js">
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/html.webp" alt="html">
+            <h3>Html</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/css.png" alt="css">
+            <h3>Css</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/DB.png" alt="db">
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/tree.png" alt="dsa">
+            <h3>DSA</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/APIs.png" alt="APIs">
+            <h3>API</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/vsCode.png" alt="VsCode">
+            <h3>VSCode</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./Ingradient/githubl.png" alt="Github">
+            <h3>Github</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" >
+    <div id="Project" class="page5">
+      <h1 id="special"><i style="color: green;" class="ri-file-paper-fill"></i> Project Made</h1>
+      <div class="project-container">
+          <div class="left-img"><img src="./Ingradient/imageSEARCH.png" alt="Image Search App"></div>
+          <div class="content">
+            <h1>  Image Search App</h1>
+            <p>
+              Designed and implemented a dynamic Image Search web app with API integration, showcasing HTML, 
+              CSS, and JavaScript skills for a seamless user experience.
+            </p>
+            <div class="icon">
+              <a style="text-decoration: none;" href="https://Nitesh2-0.github.io/ImageSearchApp/" target="_blank"><i class="ri-eye-fill" id="first"></i> View</a>
+              <a style="text-decoration: none;" href="https://github.com/Nitesh2-0/ImageSearchApp.git" target="_blank"><i class="ri-code-s-slash-fill" id="first"></i> Code</a>
+            </div>
+            <div class="tehnology">
+              <div class="techCartImg">
+                <img src="./Ingradient/html.webp" alt="html">
+              </div>
+              <div class="techCartImg">
+                <img src="./Ingradient/css.png" alt="css">
+              </div>
+              <div class="techCartImg">
+                <img src="./Ingradient/js.webp" alt="js">
+              </div>
+              <div class="techCartImg">
+                <img src="./Ingradient/APIs.png" alt="api">
+              </div>
+              <div class="techCartImg">
+                <img src="./Ingradient/vsCode.png" alt="vsCode">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="project-container">
+        <div class="left-img"><img src="./Ingradient/Baublast Clone.png" alt="baublast"></div>
+        <div class="content">
+          <h1>BauBlast Clone</h1>
+          <p>
+            A BauBlast Clone Project, Empowering Users to Explore,
+            View, and Enjoy Creative Content in Full-Screen Mode,
+            Delivering a Seamless and Immersive Content Experience.
+          </p>
+          <div class="icon">
+            <a style="text-decoration: none;" href="https://Nitesh2-0.github.io/BauBlast/" target="_blank"><i class="ri-eye-fill" id="first"></i> View</a>
+            <a style="text-decoration: none;" href="https://github.com/Nitesh2-0/BauBlast.git" target="_blank"><i class="ri-code-s-slash-fill" id="first"></i> Code</a>
+          </div>
+          <div class="tehnology">
+            <div class="techCartImg">
+              <img src="./Ingradient/html.webp" alt="html">
+            </div>
+            <div class="techCartImg">
+              <img src="./Ingradient/css.png" alt="css">
+            </div>
+            <div class="techCartImg">
+              <img src="./Ingradient/js.webp" alt="js">
+            </div>
+            <div class="techCartImg">
+              <img src="./Ingradient/vsCode.png" alt="vsCode">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="left-img"><img src="./Ingradient/Amazon-Clone.png" alt="Amazon-Clone"></div>
+        <div class="content">
+          <h1>Amazon Clone</h1>
+          <p>
+            This project, tailored for desktop, showcases advanced HTML and CSS skills with organized structure, standout styling,
+            dynamic components, and meticulous customization—a testament to technical proficiency in front-end web development.
+          </p>
+          <div class="icon">
+            <a style="text-decoration: none;" href="https://Nitesh2-0.github.io/Amazon-Clone/" target="_blank"><i class="ri-eye-fill" id="first"></i> View</a>
+            <a style="text-decoration: none;" href="https://github.com/Nitesh2-0/Amazon-Clone.git" target="_blank"><i class="ri-code-s-slash-fill" id="first"></i> Code</a>
+          </div>
+          <div class="tehnology">
+            <div class="techCartImg">
+              <img src="./Ingradient/html.webp" alt="html">
+            </div>
+            <div class="techCartImg">
+              <img src="./Ingradient/css.png" alt="css">
+            </div>
+            <div class="techCartImg">
+              <img src="./Ingradient/vsCode.png" alt="vsCode">
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+        <footer-cont>
+          <div class="footer-about">
+            <h1 style="font-size: 25px; font-weight: 500;">Nitesh's Portfolio</h1>
+            <p>Thank you for visiting my portfolio website. Connect with me over socials.</p>
+            <p>Keep Rising 🚀</p>
+          </div>
+          <div class="section" style="cursor: pointer;">
+            <h1 style="font-size: 25px; font-weight: 500;">Quick Links</h1>
+            <p><a onclick="showPage('home')"><i class="ri-arrow-drop-right-line"></i> Home</a></p>
+            <p></i><a onclick="showPage('about')"><i class="ri-arrow-drop-right-line"></i> About</a></p>
+            <p></i><a onclick="showPage('skill')"><i class="ri-arrow-drop-right-line"></i> Skill</a></p>
+            <p></i><a onclick="showPage('project')"><i class="ri-arrow-drop-right-line"></i> Project</a></p>
+          </div>
+          <div class="contect">
+            <h1 style="font-size: 25px; font-weight: 500;">Contact Info</h1>
+            <p><i style="color: yellow;" class="ri-phone-fill"></i> +91 9155061725</p>
+            <p><i style="color: yellow;" class="ri-mail-fill"></i> niteshkumar61725@gmail.com</p>
+            <p><i style="color: yellow;" class="ri-road-map-fill"></i> Bhopal Madhya Pradesh,India</p>
+            <div class="social-media">
+              <a style="color: rgb(11, 9, 9);" class="media-hover-Effect" href="https://www.linkedin.com/in/niteshkumaryadav16/" target="_blankhttps://github.com/niteshkumaryadav16"><i class="ri-linkedin-box-fill"></i></a>
+              <a style="color: rgb(17, 17, 17);" class="media-hover-Effect" href="https://github.com/niteshkumaryadav16" target="_blank"> <i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </footer-cont>
+        <div class="horizonta"></div>
+        <p>Designed By 👨‍💻 <span>Nitesh Kumar</span></p>
+  </footer> 
+  </div>
+  <!-- Mobile-MenueContent -->
+<script>
+  function showPage(pageId) {
+      document.querySelectorAll('section').forEach(section => {
+        section.classList.remove('active');
+      });
+
+      const selectedSection = document.getElementById(pageId);
+      selectedSection.classList.add('active');
+
+      selectedSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
