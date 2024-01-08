@@ -533,7 +533,7 @@ a{
   /* background-color: rgb(180, 45, 45); */
 }
 /* Responsive Code */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   header {
       height: 6vh;
       width: 100%;
