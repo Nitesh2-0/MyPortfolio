@@ -132,8 +132,8 @@ function locomotive(){
   
   /**Hire me Now */
   function hrieRequestBtn(){
-    var phoneNumber = "+91 9155061725"; 
-    var massage = "Hii%Nitesh,"; 
+    var phoneNumber = "+91 91550 61725"; 
+    var massage = "HiiNitesh,"; 
     var whatsAppUri = `whatsapp://send?phone=${phoneNumber}&text=${massage}`; 
     window.open(whatsAppUri);
   }
